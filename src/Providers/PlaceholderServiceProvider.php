@@ -1,13 +1,13 @@
 <?php
 namespace Placeholder\Providers;
 
-use Plenty\Plugin\serviceProvider;
+use Plenty\Plugin\ServiceProvider;
 
 class PlaceholderServiceProvider extends ServiceProvider
 {
     public function register()
     {
-      
+
     }
 }
  ?>

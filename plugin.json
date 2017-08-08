@@ -1,18 +1,18 @@
 {
-    "name"                  : "Placeholder",
-    "description"           : "Template container placeholder plugin",
-    "namespace"             : "Placeholder",
-    "author"                : "Sundsits",
-    "keywords"              : ["container", "placeholder", "templates"],
-    "type"                  : "template",
+    "name"                  :"Placeholder",
+    "description"           :"Template container placeholder plugin",
+    "namespace"             :"Placeholder",
+    "author"                :"Your name",
+    "keywords"              : ["container", "placeholder", "template"],
+    "type"                  :"template",
     "require"               : [],
-    "serviceProvider"       : "Placeholder\\Providers\\PlaceholderServiceProvider",
+    "serviceProvider"       :"Placeholder\\Providers\\PlaceholderServiceProvider",
     "dataProviders"         :
     [
         {
-            "key"           : "Placeholder\\Containers\\PlaceholderContainer",
-            "name"          : "Placeholder",
-            "description"   : "Display a placeholder image and text"
+            "key"           :"Placeholder\\Containers\\PlaceholderContainer",
+            "name"          :"Placeholder",
+            "description"   :"Display a placeholder image and text"
         }
     ]
 }
